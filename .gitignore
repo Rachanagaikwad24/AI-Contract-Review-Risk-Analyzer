@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# App data
+/data/uploads/*
+/data/processed/*
+/data/reports/*
+/vectorstore/*
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
